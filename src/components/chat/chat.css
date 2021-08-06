@@ -1,0 +1,49 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex:0.75;
+    background: #363a3f;
+    height: 100vh;
+
+}
+
+.chat__input{
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid gray;
+    background: #474b53;
+    margin: 20px;
+}
+.chat__input > form{
+    flex: 1;
+}
+.chat__input > form > input{
+    padding: 15px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: large;
+}
+.chat__input button{
+    display: none;
+}
+
+.chat__inputIcons .MuiSvgIcon-root{
+    padding: 5px;
+}
+
+.chat__messages{
+    flex: 1;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* to hide the problem with the messages */
+.chat__messages::-webkit-scrollbar{
+    display: none;
+}

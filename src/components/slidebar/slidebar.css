@@ -1,0 +1,88 @@
+.slidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2f3135;
+}
+.slidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom:solid 3px #26282c ;
+}
+
+.slidebar__channels{
+    flex:1;
+}
+
+.slidebar__addChannel{
+    cursor: pointer;
+    transition: all 500ms !important;
+}
+
+.slidebar__addChannel:hover{
+    color: white;
+}
+
+.slidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.slidebar__header{
+    display: flex;
+    align-items: center;
+}
+
+.slidebar__voice, .slidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+.slidebar__voiceInfo{
+    flex: 1;
+    padding: 10px;
+}
+
+.slidebar__voiceIcon{
+    color:#4fb185;
+}
+.slidebar__voiceInfo > h3{
+    color:#4fb185;
+}
+
+.slidebar__voiceInfo > p{
+    font-size: smaller;
+}
+
+/* material ui */
+.slidebar__voiceIcons > .MuiSvgIcon-root{
+    padding: 10px;
+}
+
+/* profile */
+.slidebar__profileInfo{
+    flex: 1;
+    padding: 10px;
+}
+
+.slidebar__profileInfo > h3{
+    color: white;
+}
+
+.slidebar__profileIcons > .MuiSvgIcon-root{
+    padding: 10px;
+}
